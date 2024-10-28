@@ -1,0 +1,54 @@
+
+body {
+    background-color: #1e272e;
+}
+
+*{
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0em;
+}
+
+.bookShelf li {
+    background-color: #0d3f24;
+    margin-top: 5px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 50%;
+    background-color: #39c77b;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.bookShelf {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.btn-remove {
+    background-color: #e27542;
+    
+}
+
+.book {
+    border: 2px solid #fff;
+    padding: 20px;
+}
+
+.btn-update {
+    background-color: #39c77b;
+    margin-left: 15px;
+}
