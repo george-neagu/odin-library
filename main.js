@@ -16,13 +16,22 @@ const myLibrary = [
 const btn = document.querySelector('#submit');
 const bookShelf = document.querySelector('.bookShelf');
 
-cl(bookShelf);
 
-function Book(author, title, pages, read) {
-    this.author = author;
-    this.title = title;
-    this.pages = pages;
-    this.read = read;
+
+// function Book(author, title, pages, read) {
+//     this.author = author;
+//     this.title = title;
+//     this.pages = pages;
+//     this.read = read;
+// }
+
+const Book = class Book {
+    constructor(author, title, pages, read) {
+        this.author = author;
+        this.title = title;
+        this.pages = pages;
+        this.read = read;
+    }
 }
 
 function addBookToLibrary(event) {
